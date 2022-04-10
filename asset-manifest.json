@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/restaurant-page/static/css/main.70a4a781.css",
+    "main.js": "/restaurant-page/static/js/main.7b390b01.js",
+    "static/media/ramen.png": "/restaurant-page/static/media/ramen.8eaab34ba3e61ae0509c.png",
+    "static/media/ramenBg.jpg": "/restaurant-page/static/media/ramenBg.af6fa0528fc087e32332.jpg",
+    "static/media/location.png": "/restaurant-page/static/media/location.5d4ead59a4044100f85f.png",
+    "index.html": "/restaurant-page/index.html",
+    "main.70a4a781.css.map": "/restaurant-page/static/css/main.70a4a781.css.map",
+    "main.7b390b01.js.map": "/restaurant-page/static/js/main.7b390b01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70a4a781.css",
+    "static/js/main.7b390b01.js"
+  ]
+}
