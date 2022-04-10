@@ -1,0 +1,30 @@
+body {
+  font: normal 1.4rem/1.4 var(--main-font);
+  color: var(--main-text);
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+  background: url(/assets/ramenBg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}

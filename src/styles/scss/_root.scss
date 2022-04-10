@@ -1,0 +1,33 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --main-text: lightgray;
+  --header-text: white;
+  --header-font: 'Beau Rivage', cursive;
+  --nav-bg: hsla(218, 12%, 19%, 90%);
+  --content-bg: hsla(218, 12%, 19%, 70%);
+  --content-header-bg: hsla(180, 100%, 27%, 70%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 60%;
+  }
+
+  @media screen and (max-width: 980px) {
+    font-size: 58%;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 55%;
+  }
+}

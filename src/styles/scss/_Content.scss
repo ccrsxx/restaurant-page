@@ -1,0 +1,119 @@
+.main {
+  padding-bottom: 6rem;
+
+  .content {
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: var(--content-bg);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.6rem;
+
+    animation: fade 500ms ease-out;
+
+    @keyframes fade {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .home {
+      display: grid;
+      gap: 2rem;
+
+      .content-container {
+        display: grid;
+        gap: 2rem;
+
+        .content-card {
+          display: grid;
+          gap: 1rem;
+
+          &:nth-child(2) {
+            gap: unset;
+
+            .content-header {
+              margin-bottom: 1rem;
+            }
+          }
+
+          .content-header {
+            color: white;
+            background-color: var(--content-header-bg);
+            border-radius: 4px;
+            padding: 1rem;
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+
+    .menu {
+      display: grid;
+      gap: 2rem;
+
+      .menu-header {
+        font-size: 1.8rem;
+      }
+
+      .menu-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        grid-auto-rows: 300px;
+        gap: 2rem;
+
+        .menu-card {
+          cursor: pointer;
+          background: hsla(0, 0%, 50%, 50%);
+          border-radius: 4px;
+          padding: 1rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+          transition: 200ms ease-out;
+
+          &:hover {
+            filter: brightness(1.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+            transform: translateY(-0.5rem);
+          }
+
+          .card-img {
+            max-width: 60%;
+            height: auto;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+
+  .contact {
+    display: grid;
+    gap: 1rem;
+
+    .contact-container {
+      display: grid;
+      gap: 1rem;
+      text-align: left;
+      font-size: 1.8rem;
+    }
+
+    .location-img {
+      margin-top: 1rem;
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      opacity: 0.8;
+    }
+  }
+}
